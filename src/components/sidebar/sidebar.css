@@ -1,8 +1,14 @@
 .sidebar{
+    
     flex: 3;
     height: calc(100vh - 50px);
     overflow-y: scroll;
+    position: sticky;
+
+    
+    
 }
+
 
 ::-webkit-scrollbar{
     width: 5px;
@@ -18,6 +24,7 @@
 
 .sidebarWrapper{
     padding: 20px;
+    position: sticky ;
     
 }
 
