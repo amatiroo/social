@@ -52,3 +52,7 @@
 .profileRightBottom{
     display: flex;
 }
+
+.rightbarTitle{
+    margin-bottom: 20px;
+}
