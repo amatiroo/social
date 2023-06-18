@@ -37,8 +37,8 @@ export default function Profile() {
             <div className="profileCover">
 
                 
-            <img src={user.coverPicture || PF+"post/1.jpeg"} alt="" className="coverPicture" />   
-            <img src={user.profilePicture || PF+"person/oswald.jpg"} alt="" className="profileUserImg" /> 
+            <img src={user.coverPicture ? PF + user.coverPicture : PF+"post/1.jpeg"} alt="" className="coverPicture" />   
+            <img src={user.profilePicture  ? PF + user.profilePicture : PF+"person/oswald.jpg"} alt="" className="profileUserImg" /> 
 
             </div>
             <div className="profileInfo">
