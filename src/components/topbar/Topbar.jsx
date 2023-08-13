@@ -44,7 +44,7 @@ export default function Topbar() {
                     <Notifications/>
                     <span className="topbarIconBadge">1</span>
                     </div>
-                    <Link to={`profile/${user.username}`}>
+                    <Link to={`/profile/${user.username}`}>
                     <img src={user.profilePicture ? PF+user.profilePicture : PF+"person/oswald.jpg"} alt="" className="topbarImg" />
                     </Link>
                 </div>
